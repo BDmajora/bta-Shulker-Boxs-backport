@@ -1,8 +1,2 @@
-item.betterwithbackpacks.backpack.leather.name=Leather Backpack
-item.betterwithbackpacks.backpack.leather.desc=Stores your items.
-item.betterwithbackpacks.backpack.iron.name=Plated Backpack
-item.betterwithbackpacks.backpack.gold.desc=Stores more of your items.
-item.betterwithbackpacks.backpack.gold.name=Gilded Backpack
-item.betterwithbackpacks.backpack.iron.desc=Stores even more of your items.
-item.betterwithbackpacks.backpack.diamond.name=Bejeweled Backpack
-item.betterwithbackpacks.backpack.diamond.desc=Stores quite a lot of your items.
+item.betterwithbackpacks.Shulker.name=Shulker Box
+item.betterwithbackpacks.Shulker.desc=Stores quite a lot of your items.

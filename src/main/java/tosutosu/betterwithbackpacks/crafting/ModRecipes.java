@@ -31,11 +31,7 @@ public class ModRecipes implements RecipeEntrypoint {
 
         if (!BetterWithBackpacks.ENABLE_BACKPACKS){return;}
         RecipeBuilderShaped templateBackpack = new RecipeBuilderShaped(BetterWithBackpacks.MOD_ID, "AAA", "ABA", "AAA");
-        templateBackpack.addInput('A', Item.leather).addInput('B', "minecraft:chests").create("backpack_leather", new ItemStack(ModItems.LeatherBackpack, 1));
-        templateBackpack.addInput('A', Item.ingotIron).addInput('B', ModItems.LeatherBackpack).create("backpack_iron", new ItemStack(ModItems.IronBackpack, 1));
-        templateBackpack.addInput('A', Item.ingotGold).addInput('B', ModItems.IronBackpack).create("backpack_gold", new ItemStack(ModItems.GoldBackpack, 1));
-        templateBackpack.addInput('A', Item.diamond).addInput('B', ModItems.GoldBackpack).create("backpack_diamond", new ItemStack(ModItems.DiamondBackpack, 1));
-    }
+        }
 
     @Override
     public void initNamespaces() {
