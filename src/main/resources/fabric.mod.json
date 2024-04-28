@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "betterwithbackpacks",
+  "id": "shulkerboxbackport",
   "version": "1.0.0",
   "icon": "icon.png",
-  "name": "Better with Backpacks!",
+  "name": "Shulker Box Backport!",
   "description": "This mod aims to add simple backpacks to BTA.",
   "authors": [
-    "tosutosu, Useless"
+    "tosutosu, Useless, bdmajora"
   ],
   "contact": {
     "homepage": "",
@@ -18,14 +18,14 @@
   "environment": "*",
   "entrypoints": {
     "beforeGameStart": [
-        "tosutosu.betterwithbackpacks.BetterWithBackpacks"
+        "bdmajora.shulkerboxbackport.ShulkerBoxBackport"
     ],
     "recipesReady": [
-      "tosutosu.betterwithbackpacks.crafting.ModRecipes"
+      "bdmajora.shulkerboxbackport.crafting.ModRecipes"
     ]
   },
   "mixins": [
-    "betterwithbackpacks.mixins.json"
+    "shulkerboxbackport.mixins.json"
   ],
 
   "depends": {
